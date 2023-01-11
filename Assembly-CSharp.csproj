@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\SpinCube.cs" />
     <Compile Include="Assets\Connection.cs" />
+    <Compile Include="Assets\WebSocket.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -734,6 +735,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="endel.nativewebsocket.csproj">
+      <Project>{4541BA20-B560-52CD-8E12-967B803D058F}</Project>
+      <Name>endel.nativewebsocket</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

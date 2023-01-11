@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using NativeWebSocket;
 
+
 public class Connection : MonoBehaviour
 {
     WebSocket websocket;
